@@ -1,5 +1,5 @@
 # Clone repo
-git clone (https://github.com/Ajaykumar724/Dasboard-Page.git)
+git clone https://github.com/Ajaykumar724/Dasboard-Page.git
 cd frontend
 git checkout frontend
 
@@ -7,4 +7,11 @@ git checkout frontend
 npm install
 
 # Run
-npm start 
+npm start
+
+---
+
+## Screenshots
+
+![Screenshot 1](src/media/image1.jpg)
+![Screenshot 2](src/media/image2.jpg)
