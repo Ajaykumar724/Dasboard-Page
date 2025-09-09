@@ -13,5 +13,5 @@ npm start
 
 ## Screenshots
 
-![Screenshot 1](src/media/image1.jpg)
-![Screenshot 2](src/media/image2.jpg)
+![Screenshot 1](src/media/image1.png)
+![Screenshot 2](src/media/image2.png)
