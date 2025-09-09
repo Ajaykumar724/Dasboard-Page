@@ -1,5 +1,5 @@
 # Clone repo
-git clone <your-repo-url>
+git clone (https://github.com/Ajaykumar724/Dasboard-Page.git)
 cd frontend
 git checkout frontend
 
