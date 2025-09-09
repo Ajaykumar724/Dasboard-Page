@@ -1,0 +1,130 @@
+{
+  "categories": [
+    {
+      "id": "cspm",
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": "w1",
+          "name": "Cloud Accounts Distribution",
+          "type": "chart",
+          "chartType": "doughnut",
+          "data": [
+            { "provider": "AWS", "accounts": 6 },
+            { "provider": "Azure", "accounts": 4 },
+            { "provider": "GCP", "accounts": 2 }
+          ]
+        },
+        {
+          "id": "w2",
+          "name": "Open Security Alerts",
+          "type": "chart",
+          "chartType": "bar",
+          "data": [
+            { "severity": "Critical", "alerts": 12 },
+            { "severity": "High", "alerts": 15 },
+            { "severity": "Medium", "alerts": 7 },
+            { "severity": "Low", "alerts": 3 }
+          ]
+        },
+        {
+          "id": "w3",
+          "name": "Compliance Score Trend",
+          "type": "chart",
+          "chartType": "line",
+          "data": [
+            { "month": "Jan", "score": 72 },
+            { "month": "Feb", "score": 75 },
+            { "month": "Mar", "score": 78 },
+            { "month": "Apr", "score": 80 },
+            { "month": "May", "score": 85 },
+            { "month": "Jun", "score": 88 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iam",
+      "name": "IAM Dashboard",
+      "widgets": [
+        {
+          "id": "w4",
+          "name": "User Roles Distribution",
+          "type": "chart",
+          "chartType": "doughnut",
+          "data": [
+            { "role": "Admin", "count": 54 },
+            { "role": "Manager", "count": 128 },
+            { "role": "Employee", "count": 1066 }
+          ]
+        },
+        {
+          "id": "w5",
+          "name": "Inactive Accounts by Months",
+          "type": "chart",
+          "chartType": "bar",
+          "data": [
+            { "month": "Jan", "inactive": 25 },
+            { "month": "Feb", "inactive": 20 },
+            { "month": "Mar", "inactive": 22 },
+            { "month": "Apr", "inactive": 20 }
+          ]
+        },
+        {
+          "id": "w6",
+          "name": "User Growth",
+          "type": "chart",
+          "chartType": "line",
+          "data": [
+            { "month": "Jan", "users": 1000 },
+            { "month": "Feb", "users": 1100 },
+            { "month": "Mar", "users": 1200 },
+            { "month": "Apr", "users": 1248 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vuln",
+      "name": "Vulnerability Management",
+      "widgets": [
+        {
+          "id": "w7",
+          "name": "Vulnerabilities by Severity",
+          "type": "chart",
+          "chartType": "doughnut",
+          "data": [
+            { "severity": "Critical", "count": 19 },
+            { "severity": "High", "count": 26 },
+            { "severity": "Medium", "count": 35 },
+            { "severity": "Low", "count": 10 }
+          ]
+        },
+        {
+          "id": "w8",
+          "name": "Patches Pending by System Type",
+          "type": "chart",
+          "chartType": "bar",
+          "data": [
+            { "system": "Windows", "patches": 20 },
+            { "system": "Linux", "patches": 15 },
+            { "system": "MacOS", "patches": 10 }
+          ]
+        },
+        {
+          "id": "w9",
+          "name": "Vulnerability Trend",
+          "type": "chart",
+          "chartType": "line",
+          "data": [
+            { "month": "Jan", "vulns": 60 },
+            { "month": "Feb", "vulns": 55 },
+            { "month": "Mar", "vulns": 50 },
+            { "month": "Apr", "vulns": 42 },
+            { "month": "May", "vulns": 38 }
+          ]
+        }
+      ]
+    }
+  ]
+}
